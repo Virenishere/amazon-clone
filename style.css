@@ -12,18 +12,19 @@ body{
     height: 100vh;
 }
 
-nav{
+.firstnav{
     background-color: #0f1111;
     max-height: 77px;
 }
 
 #textlogo{
     color: whitesmoke;
+
 }
 
-.container{
+.firstcontainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border: magenta 2px solid;
     width: 100%;
     height: 77px;
@@ -38,6 +39,10 @@ nav{
 
 .location{
     border: red 2px solid;
+}
+.location>a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .searchopn{
@@ -59,4 +64,10 @@ nav{
 
 .cart{
     border: blue 2px solid;
+}
+
+.secondnav{
+   background-color: #232F3E;
+   width: 100%;
+   height: 40px;
 }
