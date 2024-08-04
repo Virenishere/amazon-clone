@@ -11,17 +11,22 @@ body{
     background-color: #dadada;
 }
 
-img{
-    height: 100%;
+.container{
+    display: flex;
+
+}
+
+.logo img{
     width: 15vh;
     padding: 10px 0px;
     margin: 10px;
 }
 
-nav{
+ nav{
     background-color: #0f1111;
+    max-height: 77px;
 }
-nav #logo{
+
+nav #textlogo{
     color: whitesmoke;
-    
 }
