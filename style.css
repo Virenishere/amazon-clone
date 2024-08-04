@@ -9,24 +9,54 @@
 
 body{
     background-color: #dadada;
+    height: 100vh;
+}
+
+nav{
+    background-color: #0f1111;
+    max-height: 77px;
+}
+
+#textlogo{
+    color: whitesmoke;
 }
 
 .container{
     display: flex;
-
+    justify-content: space-around;
+    border: magenta 2px solid;
+    width: 100%;
+    height: 77px;
 }
 
 .logo img{
+    border: aqua 2px solid ;
     width: 15vh;
     padding: 10px 0px;
     margin: 10px;
 }
 
- nav{
-    background-color: #0f1111;
-    max-height: 77px;
+.location{
+    border: red 2px solid;
 }
 
-nav #textlogo{
-    color: whitesmoke;
+.searchopn{
+    border: yellow 2px solid;
+
+}
+ 
+.lang{
+    border: rgb(68, 240, 68) 2px solid;
+}
+
+.account-option{
+    border: navajowhite 2px solid;
+}
+
+.return-option{
+    border: grey 2px solid;
+}
+
+.cart{
+    border: blue 2px solid;
 }
